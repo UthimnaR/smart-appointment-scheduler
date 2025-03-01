@@ -1,4 +1,10 @@
 
+```mermaid
+graph LR
+  A[Patient] -->|Books Appointment| B[Appointment System]
+  C[Healthcare Provider] -->|Manages Schedule| B[Appointment System]
+  B[Appointment System] --> D[Database]
+  B[Appointment System] --> E[Notification System]
 
 ## C4 Model
 The system architecture is based on the C4 Model, which focuses on:
@@ -42,12 +48,7 @@ The system will be deployed using:
 
 ## C4 Context Diagram
 
-```mermaid
-graph LR
-  A[Patient] -->|Books Appointment| B[Appointment System]
-  C[Healthcare Provider] -->|Manages Schedule| B[Appointment System]
-  B[Appointment System] --> D[Database]
-  B[Appointment System] --> E[Notification System]
+
 
 
 ---
