@@ -1,14 +1,11 @@
 # Architecture Overview: Smart Appointment Scheduling System
-
 ## C4 Context Diagram
-
 ```mermaid
 graph LR
     A[Patient] -->|Books Appointment| B[Appointment System]
     C[Healthcare Provider] -->|Manages Schedule| B[Appointment System]
     B[Appointment System] --> D[Database]
     B[Appointment System] --> E[Notification System]
-
 Smart Appointment Scheduling System
 Domain:
 The domain for this project is the Healthcare Industry. Specifically, it focuses on optimizing the scheduling process for healthcare providers (doctors, clinics, hospitals) and their patients. The aim is to streamline appointment booking, reduce waiting times, and provide a more efficient scheduling experience for both patients and healthcare staff. This solution will improve the management of healthcare resources and enhance patient care by ensuring better availability and time utilization for healthcare professionals.
