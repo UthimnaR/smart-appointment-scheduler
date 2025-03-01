@@ -12,7 +12,6 @@ graph LR
   B[Appointment System] --> D[Database]
   B[Appointment System] --> E[Notification System]
 
-
 graph LR
   A[Patient Web App] -->|Makes Requests| B[Backend API]
   B[Backend API] -->|Fetches Data from| C[Database]
