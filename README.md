@@ -39,5 +39,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Architecture Design](ARCHITECTURE.md)
 - [System Specification](SPECIFICATION.md)
-- [C4 Context Diagram](C4%20Context%20Diagram.md)
+- [C4 Context Diagram](CONTEXT.md)
 
