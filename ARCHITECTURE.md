@@ -1,5 +1,8 @@
+
 # Architecture Overview: Smart Appointment Scheduling System
+
 ## C4 Context Diagram
+
 ```mermaid
 graph LR
     A[Patient] -->|Books Appointment| B[Appointment System]
