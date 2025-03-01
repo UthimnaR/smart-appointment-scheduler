@@ -6,6 +6,13 @@ graph LR
   B[Backend API] -->|Fetches Data from| C[Database]
   B[Backend API] -->|Sends Notifications| D[Notification System]
 
+  ```mermaid
+graph LR
+  A[Patient] -->|Books Appointment| B[Appointment System]
+  C[Healthcare Provider] -->|Manages Schedule| B[Appointment System]
+  B[Appointment System] --> D[Database]
+  B[Appointment System] --> E[Notification System]
+
 
 ## C4 Model
 The system architecture is based on the C4 Model, which focuses on:
