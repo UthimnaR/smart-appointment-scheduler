@@ -39,5 +39,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Architecture Design](ARCHITECTURE.md)
 - [System Specification](SPECIFICATION.md)
-- [Context Diagram](CONTEXT DIAGRAM.md)
+- [Context Diagram](DIAGRAM.md)
 
