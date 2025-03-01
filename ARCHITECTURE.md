@@ -44,8 +44,7 @@ The system will be deployed using:
 
 ---
 
-### **C4 Container Diagram**
-
+#### **C4 Container Diagram**
 ```markdown
 ## C4 Container Diagram
 
@@ -55,10 +54,6 @@ graph LR
   B[Backend API] -->|Fetches Data from| C[Database]
   B[Backend API] -->|Sends Notifications| D[Notification System]
 
-
-
-
----
 
 
 
