@@ -6,6 +6,8 @@ graph LR
   B[Appointment System] --> D[Database]
   B[Appointment System] --> E[Notification System]
 
+
+
 ## C4 Model
 The system architecture is based on the C4 Model, which focuses on:
 - **Level 1: System Context Diagram**
