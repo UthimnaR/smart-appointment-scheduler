@@ -41,9 +41,6 @@ The system will be deployed using:
 - **Deployment**: AWS, Netlify, MongoDB Atlas
 
 
-
----
-
 #### **C4 Container Diagram**
 ```markdown
 ## C4 Container Diagram
