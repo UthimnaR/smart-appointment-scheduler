@@ -1,5 +1,4 @@
- Overview
-The Smart Appointment Scheduling System aims to streamline the booking and management of medical appointments. It will enable patients to book appointments online, while doctors and administrators can manage schedules effectively.
+ 
 
 ## Functional Requirements
 1. **Patient Features:**
