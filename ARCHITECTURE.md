@@ -39,7 +39,24 @@ The system will be deployed using:
 - **Database**: MongoDB
 - **Email Service**: NodeMailer
 - **Deployment**: AWS, Netlify, MongoDB Atlas
+## C4 Context Diagram
 
-![System Context Diagram]("C:\Users\Uthimna\Pictures\Screenshots\31b65c1d-5d55-4ca5-b9f4-13f8a5b3282d.webp")
+```mermaid
+graph LR
+  A[Patient] -->|Books Appointment| B[Appointment System]
+  C[Healthcare Provider] -->|Manages Schedule| B[Appointment System]
+  B[Appointment System] --> D[Database]
+  B[Appointment System] --> E[Notification System]
+
+#### **C4 Container Diagram**
+```markdown
+## C4 Container Diagram
+
+```mermaid
+graph LR
+  A[Patient Web App] -->|Makes Requests| B[Backend API]
+  B[Backend API] -->|Fetches Data from| C[Database]
+  B[Backend API] -->|Sends Notifications| D[Notification System]
+
 
 
