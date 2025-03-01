@@ -8,6 +8,7 @@ graph LR
     C[Healthcare Provider] -->|Manages Schedule| B[Appointment System]
     B[Appointment System] --> D[Database]
     B[Appointment System] --> E[Notification System]
+
 ## C4 Container Diagram
 
 ```mermaid
