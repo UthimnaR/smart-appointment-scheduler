@@ -1,16 +1,11 @@
-#### **C4 Container Diagram**
-```markdown
-## C4 Container Diagram
 
-```mermaid
+
+
 graph LR
   A[Patient Web App] -->|Makes Requests| B[Backend API]
   B[Backend API] -->|Fetches Data from| C[Database]
   B[Backend API] -->|Sends Notifications| D[Notification System]
 
-
-Overview
-The Smart Appointment Scheduling System uses a modular architecture that separates concerns into different components. This ensures scalability, maintainability, and ease of deployment.
 
 ## C4 Model
 The system architecture is based on the C4 Model, which focuses on:
