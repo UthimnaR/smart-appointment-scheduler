@@ -36,3 +36,6 @@ The Smart Appointment Scheduling System will have the following features:
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[System Specification](SPECIFICATION.md)
+- [Architecture Design](ARCHITECTURE.md)
