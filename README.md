@@ -18,7 +18,7 @@ The Smart Appointment Scheduling System will have the following features:
 
 ## Installation
 1. Clone this repository:  
-   `git clone https://github.com/<your-username>/Smart-Appointment-Scheduling.git`
+   `git clone https://github.com/<UthimnaRubushe>/Smart-Appointment-Scheduling.git`
 2. Install dependencies:
    ```
    npm install
