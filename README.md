@@ -34,8 +34,6 @@ The Smart Appointment Scheduling System will have the following features:
 - Database: MongoDB
 - Notifications: NodeMailer
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 - [Architecture Design](ARCHITECTURE.md)
 - [System Specification](SPECIFICATION.md)
