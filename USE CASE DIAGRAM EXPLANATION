@@ -1,60 +1,59 @@
-# Hospital Appointment System – Use Case Diagram Explanation  
+# Hospital Appointment Management System - Use Case Diagram
 
-## 📌 Actors and Their Roles  
-
-### 1️⃣ System  
-- Facilitates communication between users and manages notifications.  
-
-### 2️⃣ Receptionist  
-- Manages appointment booking and rescheduling.  
-- Receives notifications and updates patients accordingly.  
-
-### 3️⃣ Patient  
-- Books, cancels, and reschedules appointments.  
-- Receives notifications regarding appointment status.  
-
-### 4️⃣ Doctor  
-- Manages their availability and schedule.  
-- Views upcoming patient appointments.  
-
-### 5️⃣ Admin  
-- Approves or rejects appointments.  
-- Generates system reports for analysis.  
+## 📌 Overview  
+This document presents the **Use Case Diagram** for the Hospital Appointment Management System. It outlines the key **actors**, their **roles**, and the **interactions** with different use cases.
 
 ---
 
-## 🔹 Use Cases and Relationships  
+## 🎭 **Key Actors & Their Roles**  
 
-| **Use Case**               | **Actors Involved**       | **Description** |
-|----------------------------|--------------------------|-----------------|
-| **Book Appointment**       | 🏥 Patient, Receptionist | Allows patients to schedule an appointment with a doctor. |
-| **Cancel Appointment**     | 🏥 Patient               | Enables patients to cancel their booked appointments. |
-| **Reschedule Appointment** | 🏥 Receptionist          | Receptionists modify an appointment date/time. |
-| **Receive Notification**   | 📩 Patient, Receptionist | Sends appointment confirmations, cancellations, and reminders. |
-| **Manage Doctor Schedule** | 👨‍⚕️ Doctor             | Doctors set their availability for patient appointments. |
-| **View Schedule**          | 👨‍⚕️ Doctor             | Doctors check their appointment schedule. |
-| **Approve Appointment**    | 🛠️ Admin                | Admin reviews and confirms appointment requests. |
-| **Generate Reports**       | 📊 Admin                 | Generates statistical reports on appointments and system usage. |
+1. **Patient** – Can book, cancel, and receive notifications about their appointments.  
+2. **Doctor** – Manages and views their schedule.  
+3. **Receptionist** – Handles appointment scheduling and modifications.  
+4. **Admin** – Approves appointments and generates reports.  
+5. **System** – Sends notifications and manages data interactions.  
 
 ---
 
-## 🏗️ Diagram Design Approach  
+## 📊 **Use Case Table**  
 
-### ✅ Actor-Use Case Association  
-- **Patients** primarily interact with appointment booking and notifications.  
-- **Receptionists** manage appointments but do not approve them.  
-- **Doctors** only manage their schedules and do not alter appointments directly.  
-- **Admins** oversee the entire system but do not directly handle bookings.  
-
-### 🔄 Inclusion & Generalization Relationships  
-- **"Cancel Appointment"** is a specialized form of **"Book Appointment"** since it alters the schedule.  
-- **"Receive Notification"** is an included use case in both booking and cancellation processes.  
-
-### 🔍 Stakeholder Considerations  
-- The system **minimizes manual errors** by automating scheduling, notifications, and approvals.  
-- **Patients and doctors have self-service options** to reduce administrative workload.  
-- **Admin oversight ensures data accuracy and decision-making efficiency.**  
+| **Use Case**              | **Actors Involved**   | **Description**                                        |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **Book Appointment**      | Patient, Receptionist | Allows patients to schedule an appointment.           |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **Cancel Appointment**    | Patient              | Enables patients to cancel their scheduled appointment. |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **Reschedule Appointment**| Receptionist         | Receptionists can modify the date and time of an appointment. |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **Receive Notification**  | Patient              | Patients receive notifications about their appointment status. |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **Manage Doctor Schedule** | Doctor               | Doctors can manage their availability and schedules.   |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **View Schedule**         | Doctor               | Doctors can view their appointment schedules.         |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **Approve Appointment**   | Admin                | Admins can approve or reject appointments.            |
+|---------------------------|----------------------|--------------------------------------------------------|
+| **Generate Reports**      | Admin                | Admins generate reports based on hospital activities. |
+|---------------------------|----------------------|--------------------------------------------------------|
 
 ---
 
-📌 *This Markdown file is optimized for GitHub, ensuring a clean and structured display with headers, tables, and emoji-based icons for readability.* 🚀  
+## 🔗 **Relationships Between Actors & Use Cases**  
+- The **Patient** interacts with the system to **book, cancel, and receive notifications** about appointments.  
+- The **Receptionist** helps patients by **managing and rescheduling** appointments.  
+- The **Doctor** has access to their **schedules** and can **manage availability**.  
+- The **Admin** ensures appointments are **approved** and **monitors system activity** with reports.  
+- The **System** is responsible for **sending notifications** and **maintaining appointment records**.
+
+---
+
+## 📌 **Alignment with Stakeholder Concerns (Assignment 4)**  
+- The system ensures **patients experience minimal delays** by allowing **easy appointment management**.  
+- **Doctors** benefit from an organized **schedule management system**.  
+- The **admin role** ensures appointments are handled efficiently, addressing concerns about **overbooking**.  
+- The **system sends notifications**, reducing **missed appointments** and improving overall efficiency.
+
+---
+
+✅ **This document provides a structured breakdown of the hospital appointment system, ensuring clarity and alignment with the functional requirements.** 🚀  
+
