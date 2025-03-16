@@ -38,4 +38,10 @@ The Smart Appointment Scheduling System will have the following features:
 - [Architecture Design](ARCHITECTURE.md)
 - [System Specification](SPECIFICATION.md)
 - [Context Diagram](DIAGRAM.md)
+- [Reflection](REFLECTION.md)
+- [Requirements](REQUIREMENTS.md)
+- [Stakeholders](STAKEHOLDERS.md)
+- [Test_Cases](TEST_CASES.md)
+- [Use_Case_Diagram](USE_CASE_DIAGRAM.md)
+- [Use_Case_Specifications](USE_CASE_SPECIFICATIONS.md)
 
