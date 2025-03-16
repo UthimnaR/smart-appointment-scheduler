@@ -1,1 +1,60 @@
+# Hospital Appointment System – Use Case Diagram Explanation  
 
+## 📌 Actors and Their Roles  
+
+### 1️⃣ System  
+- Facilitates communication between users and manages notifications.  
+
+### 2️⃣ Receptionist  
+- Manages appointment booking and rescheduling.  
+- Receives notifications and updates patients accordingly.  
+
+### 3️⃣ Patient  
+- Books, cancels, and reschedules appointments.  
+- Receives notifications regarding appointment status.  
+
+### 4️⃣ Doctor  
+- Manages their availability and schedule.  
+- Views upcoming patient appointments.  
+
+### 5️⃣ Admin  
+- Approves or rejects appointments.  
+- Generates system reports for analysis.  
+
+---
+
+## 🔹 Use Cases and Relationships  
+
+| **Use Case**               | **Actors Involved**       | **Description** |
+|----------------------------|--------------------------|-----------------|
+| **Book Appointment**       | 🏥 Patient, Receptionist | Allows patients to schedule an appointment with a doctor. |
+| **Cancel Appointment**     | 🏥 Patient               | Enables patients to cancel their booked appointments. |
+| **Reschedule Appointment** | 🏥 Receptionist          | Receptionists modify an appointment date/time. |
+| **Receive Notification**   | 📩 Patient, Receptionist | Sends appointment confirmations, cancellations, and reminders. |
+| **Manage Doctor Schedule** | 👨‍⚕️ Doctor             | Doctors set their availability for patient appointments. |
+| **View Schedule**          | 👨‍⚕️ Doctor             | Doctors check their appointment schedule. |
+| **Approve Appointment**    | 🛠️ Admin                | Admin reviews and confirms appointment requests. |
+| **Generate Reports**       | 📊 Admin                 | Generates statistical reports on appointments and system usage. |
+
+---
+
+## 🏗️ Diagram Design Approach  
+
+### ✅ Actor-Use Case Association  
+- **Patients** primarily interact with appointment booking and notifications.  
+- **Receptionists** manage appointments but do not approve them.  
+- **Doctors** only manage their schedules and do not alter appointments directly.  
+- **Admins** oversee the entire system but do not directly handle bookings.  
+
+### 🔄 Inclusion & Generalization Relationships  
+- **"Cancel Appointment"** is a specialized form of **"Book Appointment"** since it alters the schedule.  
+- **"Receive Notification"** is an included use case in both booking and cancellation processes.  
+
+### 🔍 Stakeholder Considerations  
+- The system **minimizes manual errors** by automating scheduling, notifications, and approvals.  
+- **Patients and doctors have self-service options** to reduce administrative workload.  
+- **Admin oversight ensures data accuracy and decision-making efficiency.**  
+
+---
+
+📌 *This Markdown file is optimized for GitHub, ensuring a clean and structured display with headers, tables, and emoji-based icons for readability.* 🚀  
