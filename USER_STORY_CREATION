@@ -1,25 +1,12 @@
-# 📌 User Stories
+# User Stories
 
-This document outlines the user stories derived from system requirements and use cases.
-
-## 🏆 User Story Table
-
-| **Story ID** | **User Story** | **Priority** | **Acceptance Criteria** |
-|--------------|----------------|--------------|-------------------------|
-| **US-001**   | As a student, I want to search for books by title so I can find materials quickly. | Must-have | Results load in ≤2 seconds; display availability status. |
-|--------------|----------------|--------------|-------------------------|
-| **US-002**   | As a student, I want to borrow books online so that I don’t have to visit the library physically. | Must-have | Borrowed books are linked to the user’s account and have a due date. |
-|--------------|----------------|--------------|-------------------------|
-| **US-003**   | As a librarian, I want to manage book inventory so that records are always updated. | Must-have | The system allows adding, editing, and deleting book records. |
-|--------------|----------------|--------------|-------------------------|
-| **US-004**   | As a student, I want to receive notifications for due books so that I return them on time. | Should-have | The system sends automated email reminders before the due date. |
-|--------------|----------------|--------------|-------------------------|
-| **US-005**   | As a system admin, I want user data encrypted with AES-256 so that security compliance is met. | Must-have | All user data is stored and transmitted using AES-256 encryption. |
-|--------------|----------------|--------------|-------------------------|
-| **US-006**   | As a librarian, I want to generate reports on book borrow trends so that I can optimize inventory. | Could-have | Reports can be generated for any time period with downloadable CSV files. |
-|--------------|----------------|--------------|-------------------------|
-| **US-007**   | As a student, I want to renew my borrowed books online so that I don’t have to visit the library. | Should-have | Users can renew books unless they have overdue penalties. |
-|--------------|----------------|--------------|-------------------------|
-
-## 🎯 Traceability  
-These user stories are derived from the system requirements (Assignment 4) and use cases (Assignment 5).
+| **Story ID** | **User Story**                                                                 | **Priority (High/Medium/Low)** | **Acceptance Criteria**                                    |
+|--------------|---------------------------------------------------------------------------------|-------------------------------|------------------------------------------------------------|
+| **US-001**   | As a student, I want to search for books by title so that I can find materials quickly. | High                          | Results load in ≤2 seconds; display availability status.   |
+| **US-002**   | As a student, I want to search for books by author so that I can find specific materials. | Medium                        | Results load in ≤3 seconds; display author information.    |
+| **US-003**   | As a student, I want to check the availability of books so that I know if they are in the library. | High                          | Display availability status for each book.                 |
+| **US-004**   | As a student, I want to filter books by category so that I can find materials relevant to my course. | Medium                        | Allow category filters in search results.                  |
+| **US-005**   | As a student, I want to reserve books online so that I can ensure they are available when I need them. | High                          | Reservation confirmation page; email notification.         |
+| **US-006**   | As a student, I want to view detailed information about each book so that I can make an informed decision. | Medium                        | Display book description, availability, and ratings.       |
+| **US-007**   | As a librarian, I want to update book details so that the system reflects the latest book information. | High                          | Provide interface for book details update.                 |
+| **US-008**   | As a system admin, I want user data encrypted with AES-256 so that security compliance is met. | High                          | Data must be encrypted with AES-256.                       |
