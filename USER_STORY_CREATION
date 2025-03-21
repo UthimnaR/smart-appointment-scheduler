@@ -1,34 +1,23 @@
 # User Stories for Smart Appointment Scheduling System  
 
-## **Overview**  
-This document outlines the user stories derived from the functional requirements and use cases. These stories follow the **INVEST criteria** (Independent, Negotiable, Valuable, Estimable, Small, Testable).  
-
 ## **User Stories Table**  
-| Story ID | User Story | Priority | Acceptance Criteria |
-|----------|-----------|----------|---------------------|
-| US-001 | As a patient, I want to book an appointment online so that I can avoid waiting in long queues. | Must-have | The system allows patients to select an available slot and confirm an appointment. |
-| US-002 | As a doctor, I want to view my daily schedule so that I can prepare for upcoming appointments. | Must-have | The system displays the doctor's schedule, including patient names and appointment times. |
-| US-003 | As an admin, I want to manage appointment availability so that double bookings are prevented. | Must-have | Admins can set, edit, and block time slots to avoid conflicts. |
-| US-004 | As a patient, I want to receive appointment reminders so that I don’t forget my bookings. | Should-have | The system sends automated reminders via email/SMS at least 24 hours before the appointment. |
-| US-005 | As a doctor, I want to update appointment statuses (completed, rescheduled, canceled) so that records remain accurate. | Must-have | Doctors can update appointment statuses through their dashboard. |
-| US-006 | As a patient, I want to cancel my appointment online so that I can free up time for others. | Should-have | Patients can cancel appointments up to 12 hours before the scheduled time. |
-| US-007 | As a system admin, I want to encrypt user data with AES-256 so that security compliance is met. | Must-have | All user data must be stored and transmitted using AES-256 encryption. |
-| US-008 | As a patient, I want to access my appointment history so that I can track my past visits. | Could-have | The system allows patients to view past appointments and details. |
 
----
-
-## **Mapping to Use Cases**  
-
-| Use Case | Related User Stories |
-|----------|----------------------|
-| UC-001: Book an appointment | US-001 |
-| UC-002: View doctor schedule | US-002 |
-| UC-003: Manage appointment availability | US-003 |
-| UC-004: Receive appointment reminders | US-004 |
-| UC-005: Update appointment status | US-005 |
-| UC-006: Cancel appointment | US-006 |
-| UC-007: Secure patient data | US-007 |
-| UC-008: View appointment history | US-008 |
-
----
-
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| Story ID | User Story                                                 | Priority   | Acceptance Criteria                        |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-001   | As a patient, I want to book an appointment online so that I can avoid waiting in long queues. | Must-have | The system allows patients to select an available slot and confirm an appointment. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-002   | As a doctor, I want to view my daily schedule so that I can prepare for upcoming appointments. | Must-have | The system displays the doctor's schedule, including patient names and appointment times. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-003   | As an admin, I want to manage appointment availability so that double bookings are prevented. | Must-have | Admins can set, edit, and block time slots to avoid conflicts. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-004   | As a patient, I want to receive appointment reminders so that I don’t forget my bookings. | Should-have | The system sends automated reminders via email/SMS at least 24 hours before the appointment. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-005   | As a doctor, I want to update appointment statuses (completed, rescheduled, canceled) so that records remain accurate. | Must-have | Doctors can update appointment statuses through their dashboard. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-006   | As a patient, I want to cancel my appointment online so that I can free up time for others. | Should-have | Patients can cancel appointments up to 12 hours before the scheduled time. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-007   | As a system admin, I want to encrypt user data with AES-256 so that security compliance is met. | Must-have | All user data must be stored and transmitted using AES-256 encryption. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
+| US-008   | As a patient, I want to access my appointment history so that I can track my past visits. | Could-have | The system allows patients to view past appointments and details. |
++----------+------------------------------------------------------------+------------+--------------------------------------------+
