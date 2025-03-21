@@ -1,0 +1,26 @@
+# Reflection on Agile Planning for the Smart Appointment Booking System
+
+## Challenges in Prioritization
+One of the biggest challenges I faced while prioritizing user stories was deciding what should be classified as **Must-have** versus **Should-have**. While it was clear that core functionalities like **booking appointments (US-001)** and **preventing double booking (US-007)** were critical for the system’s usability, features like **manual appointment modifications by receptionists (US-004)** seemed equally important. However, using the **MoSCoW method**, I had to focus on what was essential for the **Minimum Viable Product (MVP)** and what could be implemented in future iterations.
+
+Additionally, prioritizing security features, such as **encrypting user data (US-008)**, posed a dilemma. While security is critical, it does not directly impact the primary user flow. However, due to **compliance requirements in healthcare**, I categorized it as a **Must-have** to ensure patient confidentiality and data protection.
+
+## Challenges in Effort Estimation
+Estimating effort for each user story was difficult, especially without a real development team to consult. Assigning **story points (1–5)** required careful consideration of complexity, dependencies, and potential development time. Features that required **backend logic and database management**, such as **appointment scheduling (US-003)** and **double booking prevention (US-007)**, were estimated at higher effort levels (4-5 points). Simpler UI-driven features like **viewing available appointment slots (US-009)** were assigned lower effort points (2-3).
+
+A major realization was that effort estimates are **not always accurate**—some tasks may take longer than expected due to unforeseen technical challenges or integration issues. This exercise helped me understand the **importance of flexibility in Agile planning** and the need to reassess estimates throughout the project.
+
+## Challenges in Aligning Agile with Stakeholder Needs
+Since I was the only stakeholder in this assignment, I had to create hypothetical **resistance points** to simulate real-world challenges. One issue I encountered was balancing **business needs versus technical feasibility**. While patients would want advanced features like **medical history tracking (US-010)**, these could **increase development time and complexity**, making them less viable for the first release.
+
+Another challenge was ensuring that the **Agile approach remained iterative**. Agile development is meant to be **incremental**, yet I had to fight the instinct to plan for a **fully complete system from the start**. To address this, I structured the **Sprint Backlog** to focus on essential features first while keeping enhancements for later sprints.
+
+Additionally, justifying the **Won’t-have** category was difficult. Features like **doctor rating (US-011)** and **feedback collection (US-012)** seemed beneficial but were **not directly relevant to the system’s core purpose**. This exercise helped me **refine my product vision** and ensure that development efforts focused on immediate business needs.
+
+## Lessons Learned & Takeaways
+- **Agile prioritization requires trade-offs**—not all features can be included in the MVP.
+- **Effort estimation is not exact** but should be revisited in every sprint.
+- **Stakeholder alignment is key**—focusing on core functionality ensures a successful release.
+- **Agile is flexible**—plans should evolve based on continuous feedback.
+
+Overall, this assignment deepened my understanding of Agile principles, **especially backlog management, sprint planning, and prioritization techniques**. I now appreciate how Agile helps teams **deliver value incrementally** while allowing room for adjustments based on real-world constraints.
