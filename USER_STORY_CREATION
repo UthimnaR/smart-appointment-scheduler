@@ -4,15 +4,22 @@ This document outlines the user stories derived from system requirements and use
 
 ## 🏆 User Story Table
 
-| Story ID | User Story | Priority | Acceptance Criteria |
-|----------|-----------|----------|----------------------|
-| US-001   | As a student, I want to search for books by title so I can find materials quickly. | Must-have | Results load in ≤2 seconds; display availability status. |
-| US-002   | As a student, I want to borrow books online so that I don’t have to visit the library physically. | Must-have | Borrowed books are linked to the user’s account and have a due date. |
-| US-003   | As a librarian, I want to manage book inventory so that records are always updated. | Must-have | The system allows adding, editing, and deleting book records. |
-| US-004   | As a student, I want to receive notifications for due books so that I return them on time. | Should-have | The system sends automated email reminders before the due date. |
-| US-005   | As a system admin, I want user data encrypted with AES-256 so that security compliance is met. | Must-have | All user data is stored and transmitted using AES-256 encryption. |
-| US-006   | As a librarian, I want to generate reports on book borrow trends so that I can optimize inventory. | Could-have | Reports can be generated for any time period with downloadable CSV files. |
-| US-007   | As a student, I want to renew my borrowed books online so that I don’t have to visit the library. | Should-have | Users can renew books unless they have overdue penalties. |
+| **Story ID** | **User Story** | **Priority** | **Acceptance Criteria** |
+|--------------|----------------|--------------|-------------------------|
+| **US-001**   | As a student, I want to search for books by title so I can find materials quickly. | Must-have | Results load in ≤2 seconds; display availability status. |
+|--------------|----------------|--------------|-------------------------|
+| **US-002**   | As a student, I want to borrow books online so that I don’t have to visit the library physically. | Must-have | Borrowed books are linked to the user’s account and have a due date. |
+|--------------|----------------|--------------|-------------------------|
+| **US-003**   | As a librarian, I want to manage book inventory so that records are always updated. | Must-have | The system allows adding, editing, and deleting book records. |
+|--------------|----------------|--------------|-------------------------|
+| **US-004**   | As a student, I want to receive notifications for due books so that I return them on time. | Should-have | The system sends automated email reminders before the due date. |
+|--------------|----------------|--------------|-------------------------|
+| **US-005**   | As a system admin, I want user data encrypted with AES-256 so that security compliance is met. | Must-have | All user data is stored and transmitted using AES-256 encryption. |
+|--------------|----------------|--------------|-------------------------|
+| **US-006**   | As a librarian, I want to generate reports on book borrow trends so that I can optimize inventory. | Could-have | Reports can be generated for any time period with downloadable CSV files. |
+|--------------|----------------|--------------|-------------------------|
+| **US-007**   | As a student, I want to renew my borrowed books online so that I don’t have to visit the library. | Should-have | Users can renew books unless they have overdue penalties. |
+|--------------|----------------|--------------|-------------------------|
 
 ## 🎯 Traceability  
-These user stories are derived from the system requirements (Assignment 4) and use cases (Assignment 5).  
+These user stories are derived from the system requirements (Assignment 4) and use cases (Assignment 5).
