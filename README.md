@@ -45,3 +45,9 @@ The Smart Appointment Scheduling System will have the following features:
 - [Use_Case_Diagram](USE_CASE_DIAGRAM.md)
 - [Use_Case_Specifications](USE_CASE_SPECIFICATIONS.md)
 
+## 📚 Assignment 8 Deliverables
+
+- [State Transition Diagrams](./state_transition_diagrams.md)
+- [Activity Diagrams](./activity_diagrams.md)
+- [Reflection on Modeling](./assignment8_reflection.md)
+
