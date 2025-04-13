@@ -51,3 +51,10 @@ The Smart Appointment Scheduling System will have the following features:
 - [Activity Diagrams](./activity_diagrams.md)
 - [Reflection on Modeling](./assignment8_reflection.md)
 
+- ## 📚 Assignment 9 Deliverables
+
+- [Domain Model](./domain_model.md)
+- [Class Diagram](./class_diagram.md)
+- [Reflection on Modeling](./assignment9_reflection.md)
+
+
