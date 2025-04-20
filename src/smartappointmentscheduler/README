@@ -1,0 +1,45 @@
+# Smart Appointment Scheduler – Assignment 10
+
+## 📌 Overview
+This project implements a Smart Appointment Scheduling System in Java. It includes real-world business logic, object-oriented design, and all major **creational design patterns**.
+
+---
+
+## 💻 Language Used
+- **Java**
+- IDE: **NetBeans**
+- Testing: **JUnit**
+
+---
+
+## 🧩 Design Choices
+
+### Class Design
+- Follows the class diagram from Assignment 9.
+- Each class maps directly to domain entities like `Appointment`, `User`, and `Doctor`.
+
+### Creational Patterns Implemented
+
+| Pattern | Purpose | Use Case |
+|--------|---------|----------|
+| **Singleton** | Ensure a single instance | Used in `DatabaseConnection` class to prevent multiple DB connections. |
+| **Simple Factory** | Central object creation | Used in `AppointmentFactory` to return new `Appointment` types. |
+| **Factory Method** | Delegate creation to subclasses | Used in `PaymentProcessor` for different payment types. |
+| **Abstract Factory** | Group object families | Used in `UIFactory` to produce platform-specific UI components. |
+| **Builder** | Construct complex objects | Used in `AppointmentBuilder` to create `Appointment` with optional values. |
+| **Prototype** | Clone objects | Used in `AppointmentTemplate` to clone appointment prototypes. |
+
+---
+
+## ✅ How to Run Tests
+
+1. Right-click on the `tests/` folder in NetBeans.
+2. Click **"Test File"** for each test class.
+3. Or run all with:
+   - `Right-click > Test`
+
+---
+
+## 🔗 GitHub Project Board
+You can track all tasks and progress in our GitHub Project Board [here](https://github.com/UthimnaR/smart-appointment-scheduler).
+
