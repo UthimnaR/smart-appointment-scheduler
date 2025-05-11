@@ -1,0 +1,52 @@
+# 📦 My Java Project with CI/CD
+
+## 🔍 Overview
+This project implements a full domain model, factory, repository, and service layers, with an API to manage [brief description of your system]. It is integrated with GitHub Actions to enforce CI/CD for quality control.
+
+---
+
+## 🧪 How to Run Tests Locally
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
+Run the tests using Maven (if you're using Maven)
+
+bash
+Copy
+Edit
+mvn clean test
+If using Gradle:
+
+bash
+Copy
+Edit
+./gradlew test
+Make sure you have Java and Maven/Gradle installed.
+
+⚙️ How the CI/CD Pipeline Works
+✅ Continuous Integration (CI)
+Every push or pull request triggers the CI workflow.
+
+The CI pipeline sets up Java and runs all unit & integration tests.
+
+If any test fails, the PR cannot be merged into main.
+
+🚀 Continuous Deployment (CD)
+When a PR is merged into main:
+
+The project is built using Maven/Gradle.
+
+A JAR file (release artifact) is created and uploaded in GitHub Actions.
+
+This ensures every release from main is automatically built and versioned.
+
+🔐 Branch Protection
+The main branch is protected with the following rules:
+
+Requires at least 1 pull request review
+
+No direct pushes allowed
+
+CI checks must pass before merging
